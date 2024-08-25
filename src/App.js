@@ -19,7 +19,14 @@ function App() {
 <Button variant='contained' sx={{
         backgroundColor:"skyblue",
         color:'#888',
-        margin:5
+        margin:5,
+        "&:hover":{
+          backgroundColor:"lightblue"
+        },
+        "&:disabled":{
+          backgroundColor:"gray",
+          color:"white"
+        }
       }}  > MY Unique Button </Button>
 
 
